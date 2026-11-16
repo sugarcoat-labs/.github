@@ -13,3 +13,8 @@ The leading Java 24 module defining all persistence contracts, concurrency excep
 
 ### [`persistence-engines-dynamodb`](https://github.com/sugarcoat-labs/persistence-engines-dynamodb)
 The Amazon DynamoDB realization of `persistence-engines-core`. This module directly imports the persistence interfaces and the portable Technology Compatibility Kit (`test-jar`) from `core`, implementing single-table storage with `TransactWriteItems` and a zero-framework `DynamoDbCodec<T>` for custom payload serialization, verified against `amazon/dynamodb-local`.
+
+## Support & Sponsorship
+If you find this project helpful or use it in your work, please consider supporting its ongoing development. Your sponsorship helps maintain existing features, build new tools, and keep these open-source projects moving forward.
+
+[💖 Sponsor @x-artifactory on GitHub](https://github.com/sponsors/x-artifactory)
